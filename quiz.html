@@ -5,20 +5,20 @@
   </head>
   <body>
     <header>
-      <h1>Burak Surmen</h1>
+      <h1 id="home">Burak Surmen</h1>
     </header>
     <nav>
       <ul>
-        <li>Home</li>
-        <li>Blog</li>
-        <li>Services</li>
-        <li>Testimonies</li>
-        <li>Meet our team</li>
-        <li>Contact Us</li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#testimony">Testimonies</a></li>
+        <li><a href="#mot">Meet our team</a></li>
+        <li><a href="#contact">Contact us</a></li>
       </ul>
     </nav>
     <section>
-      <h2>My Blog Posts</h2>
+      <h2 id="blog">My Blog Posts</h2>
       <article>
         <h3>Ipsum</h3>
         <p>
@@ -73,7 +73,7 @@
       </aside>
     </section>
     <section>
-      <h2>Services</h2>
+      <h2 id="service">Services</h2>
       <article>
         <h3>Build a super website</h3>
         <p>
@@ -87,5 +87,103 @@
         </p>
       </article>
     </section>
+    <section>
+      <h2 id="testimony">Testimonies</h2>
+      <article>
+        <img
+          src="https://www.baltimoresun.com/resizer/OFfR3PMOuIcFIXB0kHa1Ewrol34=/448x336/top/s3.amazonaws.com/arc-authors/tronc/17fa1169-e3ef-4199-b6f9-64ac009fc8eb.jpg"
+          style="width: 200px;"
+          alt="John Doe's picture"
+        />
+        <figcaption><em> John Doe's picture</em></figcaption>
+        <h3>John Doe</h3>
+        <p>
+          <i
+            >“Never worked with a professional before, but now I can proudly say
+            I have!”</i
+          >
+        </p>
+      </article>
+      <article>
+        <img
+          src="https://www.jonesday.com/-/media/images/attorneys/s/dsloan.jpg"
+          style="width: 200px;"
+          alt="Deborah Key's picture"
+        />
+        <figcaption><em> Deborah Key's picture</em></figcaption>
+        <h3>Deborah Key</h3>
+        <p>
+          <i
+            >“Randomly one night, I saw a shot on Dribble that caught my eye and
+            I thought, Why not?”</i
+          >
+        </p>
+      </article>
+      <article>
+        <img
+          src="https://www.nme.com/wp-content/uploads/2017/08/GettyImages-464224776_ROBERT_PATTINSON_DOG_1000-696x442.jpg"
+          style="width: 200px;"
+          alt="Robert's Padburry picture"
+        />
+        <figcaption><em> Robert Padburry's picture</em></figcaption>
+        <h3>Robert Padburry</h3>
+        <p>
+          <i
+            >“Because of the work I had posted, I ended up landing my dream job
+            at Apple.”</i
+          >
+        </p>
+      </article>
+    </section>
+    <section>
+      <h3 id="mot">Meet our team</h3>
+      <table border="1p solid black">
+        <tr>
+          <th>
+            Name
+          </th>
+          <th>Job</th>
+        </tr>
+        <tr>
+          <td>Melih</td>
+          <td>Developer</td>
+        </tr>
+        <tr>
+          <td>Oktay</td>
+          <td>Developer</td>
+        </tr>
+        <tr>
+          <td>Burak</td>
+          <td>Developer</td>
+        </tr>
+      </table>
+    </section>
+    <section>
+      <h2 id="contact">Contact us</h2>
+      <form action="/action_page.php">
+        Name:<br />
+        <input type="text" name="name" />
+        <br />
+        Email:<br />
+        <input type="text" name="email" />
+        <br />
+
+        Message:<br />
+        <input type="text" name="email" />
+        <br /><br />
+        <input type="radio" value="" />You are looking for a job<br />
+        <input type="radio" value="" />You are looking for a service<br />
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+    <br />
+    <footer>
+      <div>
+        <a href="http://">Twitter</a>
+        <a href="http://">Facebook</a>
+        <a href="http://">Instagram</a>
+      </div>
+    </footer>
   </body>
 </html>
